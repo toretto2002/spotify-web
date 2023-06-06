@@ -1,0 +1,71 @@
+/* SIDEBAR SX */
+ul {
+ list-style-type: none;
+ font-style: "Circular";
+ font-style: normal;
+ font-weight: 300;
+ overflow: auto;
+ height: 900px;
+}
+
+a {
+ text-decoration: none !important;
+ line-height: 2;
+ font-size: 15px;
+ color: #a3ada0 !important;
+}
+
+li {
+ font-size: 14px;
+ color: #767676;
+ line-height: 2;
+}
+
+/* SIDEBAR DX */
+
+h6 {
+ font-style: "Circular";
+ font-style: normal;
+ font-weight: 300;
+ font-size: 14px !important;
+ color: #a3ada0 !important;
+}
+
+p {
+ font-style: "Circular";
+ font-style: normal;
+ font-weight: 300;
+ font-size: 11px;
+ color: #767676;
+}
+
+.contenitoredx p {
+ line-height: 0.5;
+}
+
+#icons i {
+ margin-right: 15px;
+ color: white;
+ font-size: 20px;
+}
+
+/* width */
+::-webkit-scrollbar {
+ width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+ background-color: #171717;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+ border-radius: 10px;
+ background: #8c8c8c47;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+ background: #8c8c8c;
+}

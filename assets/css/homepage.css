@@ -1,0 +1,410 @@
+/* SIDEBAR SX */
+ul {
+ list-style-type: none;
+ font-style: "Circular";
+ font-style: normal;
+ font-weight: 300;
+ overflow: auto;
+ height: 900px;
+}
+
+.fa-bookmark {
+ color: #a3ada0 !important;
+}
+
+.fa-book {
+ color: #a3ada0 !important;
+}
+
+#canzoni {
+ display: grid;
+ grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+ grid-gap: 1em;
+}
+
+a {
+ text-decoration: none !important;
+ line-height: 2;
+ font-size: 15px;
+ color: #a3ada0 !important;
+ transition: 200ms;
+}
+
+a i {
+ color: #a3ada0 !important;
+}
+
+.side-hover:hover {
+ color: white !important;
+ transition: 200ms;
+}
+
+li {
+ font-size: 14px;
+ color: #767676;
+ line-height: 2;
+}
+
+/* CENTER PAGE */
+.fss {
+ font-size: 4rem;
+ color: white;
+ line-height: 0;
+}
+
+#full {
+ background-color: #171717;
+}
+
+i {
+ color: white;
+ font-size: 20px;
+}
+
+.page {
+ background-color: #202020;
+}
+
+.info {
+ background: rgb(5, 5, 5);
+ background: linear-gradient(
+  90deg,
+  rgba(5, 5, 5, 1) 0%,
+  rgba(30, 30, 30, 1) 100%
+ );
+}
+
+.album {
+ font-size: 12px !important;
+}
+
+#main {
+ font-family: "Inter", sans-serif !important;
+ font-weight: bold;
+}
+
+#main h1 {
+ font-size: 4rem !important;
+ font-weight: bold;
+}
+
+.hot {
+ font-family: "Inter";
+ font-size: 1rem;
+}
+
+.tendence {
+ font-family: "Inter";
+ font-size: 0.7rem;
+}
+
+@media only screen and (max-width: 574px) {
+ body {
+  font-family: "Inter", sans-serif !important;
+ }
+
+ #listen h2 {
+  font-size: 1.8rem;
+ }
+
+ #left {
+  display: none !important;
+ }
+
+ #amici {
+  display: none !important;
+ }
+
+ #center {
+  width: 100%;
+  padding: 0;
+ }
+
+ #main {
+  display: none;
+  margin-top: 50px !important;
+ }
+
+ #arrows {
+  display: none !important;
+ }
+
+ #listen {
+  padding-top: 50px !important;
+ }
+
+ #featured {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 0.9rem;
+ }
+
+ #elements {
+  background-color: #171717 !important;
+ }
+
+ #altro {
+  display: none;
+ }
+
+ #canzoni {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .write {
+  display: flex;
+ }
+
+ .image {
+  margin-right: 30px;
+ }
+
+ .playlist {
+  font-size: 1.1rem;
+  color: aqua !important;
+ }
+
+ .tendence {
+  font-size: 5rem;
+ }
+
+ .ico {
+  display: block;
+ }
+
+ .heart i {
+  color: green !important;
+ }
+
+ #pos {
+  position: absolute;
+  bottom: 50px;
+ }
+
+ .tristi {
+  margin-left: 30px;
+ }
+}
+
+@media only screen and (min-width: 575px) and (max-width: 800px) {
+ body {
+  font-family: "Inter", sans-serif !important;
+ }
+
+ #left {
+  display: none !important;
+ }
+
+ #amici {
+  display: none !important;
+ }
+
+ #center {
+  width: 100%;
+  padding: 0;
+ }
+
+ #main {
+  display: none;
+  margin-top: 50px !important;
+ }
+
+ #arrows {
+  display: none !important;
+ }
+
+ #listen {
+  padding-top: 50px !important;
+ }
+
+ #featured {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 0.9rem;
+ }
+
+ #elements {
+  background-color: #171717 !important;
+ }
+
+ #altro {
+  display: none;
+ }
+
+ #canzoni {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .write {
+  display: flex;
+ }
+
+ .image {
+  margin-right: 30px;
+ }
+
+ .playlist {
+  font-size: 1.1rem;
+  color: aqua !important;
+ }
+
+ .tendence {
+  font-size: 5rem;
+ }
+
+ .ico {
+  display: block;
+ }
+
+ .heart i {
+  color: green !important;
+ }
+
+ #pos {
+  position: absolute;
+  bottom: 50px;
+ }
+}
+
+.scaleCard {
+ transition: scale 200ms;
+}
+
+.scaleCard:hover {
+ scale: 1.1;
+}
+
+/* SIDEBAR DX */
+
+h6 {
+ font-style: "Circular";
+ font-style: normal;
+ font-weight: 300;
+ font-size: 14px !important;
+ color: #a3ada0 !important;
+}
+
+p {
+ font-style: "Circular";
+ font-style: normal;
+ font-weight: 300;
+ font-size: 11px;
+ color: #767676;
+}
+
+.contenitoredx p {
+ line-height: 0.5;
+}
+
+.pop-title {
+ font-size: 1rem !important;
+ transition: 200ms;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 574px) {
+ #left {
+  display: none !important;
+ }
+
+ #amici {
+  display: none !important;
+ }
+
+ #center {
+  width: 100%;
+  padding: 0;
+ }
+
+ #main {
+  display: none;
+  margin-top: 50px !important;
+ }
+
+ #arrows {
+  display: none !important;
+ }
+
+ #listen {
+  padding-top: 50px !important;
+ }
+
+ #featured {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 0.9rem;
+ }
+
+ #elements {
+  background-color: #171717 !important;
+ }
+
+ #like {
+  display: none;
+ }
+
+ .pop-title {
+  font-size: 0.7rem !important;
+ }
+}
+
+#elements {
+ transition: 200ms;
+ margin: 0 1em;
+ border-radius: 10px;
+ cursor: pointer;
+}
+
+#elements:hover {
+ transition: 200ms;
+ background-color: rgba(214, 208, 208, 0.158) !important;
+}
+
+.pop-title:hover {
+ transition: 200ms;
+ color: white !important;
+ text-decoration: underline !important;
+}
+
+.main-album-title {
+ transition: 200ms;
+}
+
+.main-album-title:hover {
+ transition: 200ms;
+ color: white !important;
+}
+
+.main-artist-name {
+ transition: 200ms;
+}
+
+.main-artist-name:hover {
+ transition: 200ms;
+ color: white !important;
+ text-decoration: underline !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+ width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+ background-color: #171717;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+ border-radius: 10px;
+ background: #8c8c8c47;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+ background: #8c8c8c;
+}
